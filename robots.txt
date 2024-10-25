@@ -1,7 +1,0 @@
-#
-#	Do Androids Dream of Electric Sheep?
-#
-
-User-Agent: *
-Allow: /
-Disallow: /thank-you

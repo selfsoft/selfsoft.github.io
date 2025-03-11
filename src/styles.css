@@ -1,0 +1,14 @@
+@import "@fortawesome/fontawesome-free/css/all.min.css";
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.brand-blue {
+    color: #00e7ff;
+}
+
+.brand-green {
+    color: #00ff00;
+}

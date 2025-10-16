@@ -5,7 +5,11 @@
     "postcss": "^8.4.47",
     "tailwindcss": "^3.4.13"
   },
+  "devDependencies": {
+    "live-server": "^1.2.2"
+  },
   "scripts": {
+    "dev": "npx tailwindcss -i ./src/styles.css -o ./dist/main.css --watch & live-server --port=3000 --open=index.html",
     "build:css": "npx tailwindcss -i ./src/styles.css -o ./dist/main.css --minify"
   }
 }
